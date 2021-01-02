@@ -109,10 +109,11 @@ ul.submenu {
 	font-size: 12px;
 }
 .submenu li {
-	font-size: 15px;
+	font-size: 12px;
 	margin:0;
 	padding:0;
 	list-style:none;
+	
 }
 .submenu a {
 	display:block;
