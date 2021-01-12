@@ -214,7 +214,7 @@ ul.submenu {
 	text-decoration:none;
 }
 #content p a {
-	color:#333;
+	color:rgb(231, 16, 16);
 	text-decoration:none;
 }
 
@@ -251,7 +251,7 @@ ul.submenu {
 	border-bottom:1px solid #eee;
 }
 #content blockquote p {
-	font-style: italic;
+	
 	margin:0;
 	padding:0 10px 0 10px;
 }
