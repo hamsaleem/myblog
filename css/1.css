@@ -152,6 +152,7 @@ ul.submenu {
 }
 
 .note {
+	font-size: 15px !important;
 	padding:10px;
 	background-color:#eee;
 	border:1px solid #ccc;
@@ -166,7 +167,7 @@ ul.submenu {
 	font-size:  18px, large;
 	border-bottom:1px solid #eee;
 	padding:15px;
-	margin-top: 10px;
+	
 	color:#000;
 }
 #content h1 a {
