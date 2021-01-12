@@ -14,7 +14,7 @@ body {
 }
 #container {
 	
-	width: 1200px;
+	width: 940px;
 	margin:  auto;
 	border: rgb(240, 234, 234);
 	
@@ -36,10 +36,10 @@ body {
 	font-weight: large;
 }
 #header h1 strong {
-	color:#0b42f6;
+	color:#061855;
 }
 #header h1 a {
-	color:#333;
+	color:rgb(238, 237, 237);
 	text-decoration:none;
 }
 #header h2 {
@@ -61,7 +61,7 @@ body {
 #header li a {
 	display:block;
 	padding:7px;
-	color:#999;
+	color:rgb(255, 249, 249);
 	text-decoration:none;
 	border-bottom:5px solid #fff;
 	margin:0 10px 0 0;
@@ -71,6 +71,7 @@ body {
 #header li a:hover {
 	color:#000;
 	border-bottom:7px solid rgb(240, 238, 245);
+	background-color: #fff;
 	padding:5px 7px 7px 7px;
 	font-weight: 900;
 }
@@ -87,15 +88,13 @@ body {
 		position: sticky;
 		background-color: rgb(128, 0, 34);
 		top: 0;
-	
-	
-	
+		
 }
 
 #sidebar h1 {
 	
 	font-size:12px;
-	color:#000;
+	color:rgb(255, 251, 251);
 	margin:10px 5px 15px 10px;
 }
 #sidebar p {
@@ -111,6 +110,7 @@ ul.submenu {
 	font-size: 12px;
 }
 .submenu li {
+	
 	font-size: 12px;
 	margin:0;
 	padding:0;
@@ -118,6 +118,7 @@ ul.submenu {
 	
 }
 .submenu a {
+	color: white;
 	display:block;
 	height:13px;
 	padding:7px 7px 7px 17px;
@@ -127,7 +128,8 @@ ul.submenu {
 	
 }
 .submenu a:hover {
-	
+
+	color: black;
 	background-color:rgb(224, 224, 235);
 	padding:7px 7px 7px 15px;
 	font-weight: bolder;
@@ -156,15 +158,15 @@ ul.submenu {
 	margin:20px 5px 20px 5px;
 }
 
-
 #content {
 	margin:10px 185px 10px 10px;
 }
 #content h1 {
 	
-	font-size:14px;
+	font-size:  18px, large;
 	border-bottom:1px solid #eee;
-	padding:5px;
+	padding:15px;
+	margin-top: 10px;
 	color:#000;
 }
 #content h1 a {
@@ -176,8 +178,8 @@ ul.submenu {
 	background-repeat:no-repeat;
 }
 #content h1 a:hover {
-	color:rgb(92, 50, 206);
-	font-size: large;
+	color:rgb(128, 0, 34);
+	font-size: 18px, large;
 	
 }
 #content h2 {
@@ -188,9 +190,10 @@ ul.submenu {
 }
 #content p {
 	padding:5px;
-	line-height:18px;
+	font-size: 16px; 
+	line-height: 140%;
 	word-spacing: 0.1em;
-	font-size: 16px;
+	
 }
 #content .article_menu {
 	text-align:right;
@@ -248,6 +251,7 @@ ul.submenu {
 	border-bottom:1px solid #eee;
 }
 #content blockquote p {
+	font-style: italic;
 	margin:0;
 	padding:0 10px 0 10px;
 }
@@ -278,6 +282,7 @@ input, textarea {
 	color:#777;
 }
 #footer {
+	color: white;
 	background-color:rgb(128, 0, 34);
 	border-top:2px solid #ccc;
 	padding:10px;
