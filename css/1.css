@@ -82,13 +82,13 @@ body {
 
 #sidebar {
 	
-		float: right;
-		width: 150px;
-		position: -webkit-sticky;
-		position: sticky;
-		background-color: rgb(128, 0, 34);
-		top: 0;
-		
+	float: right;
+	width: 130px;
+	position: -webkit-sticky;
+	
+	background-color: rgb(128, 0, 34);
+	top: 0;
+
 }
 
 #sidebar h1 {
@@ -256,18 +256,8 @@ ul.submenu {
 	margin:0;
 	padding:0 10px 0 10px;
 }
-.comment_odd {
-	background-color:#f6f6f6;
-	padding:10px;
-	border-top:1px solid #fff;
-	border-bottom:1px solid #eee;
-}
-.comment_even {
-	padding:10px;
-	background-color:#fcfcfc;
-	border-top:1px solid #fff;
-	border-bottom:1px solid #eee;
-}
+
+
 .comnum {
 	float:right;
 	
@@ -285,8 +275,8 @@ input, textarea {
 #footer {
 	color: white;
 	background-color:rgb(128, 0, 34);
-	border-top:2px solid #ccc;
-	padding:10px;
+	border-top:1px solid #ccc;
+	padding:auto;
 	text-align:center;
 }
 
